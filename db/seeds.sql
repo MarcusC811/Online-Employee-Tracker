@@ -1,8 +1,10 @@
 USE employee_db;
 
 INSERT INTO department (id, name)
-VALUES  (1, "Marcus"),
-        (2, "Kaitlin");
+VALUES  (1, "Engineering"),
+        (2, "Finance"),
+        (3, "Legal"),
+        (4, "Sales");
 
 INSERT INTO role (id, title, salary, department_id)
 VALUES  (1, "Sales Lead", 100000.50, 1),
